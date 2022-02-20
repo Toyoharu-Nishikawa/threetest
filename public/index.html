@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>three test</title>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" type="text/css" href="./styles/index.css">
+  <link rel="stylesheet" type="text/css" href="./styles/viewCube.css">
+
+  <script defer src="./scripts/gui/node_modules/three/build/three.min.js"></script>
+  <!--
+  <script defer src="./scripts/gui/node_modules/three/examples/js/controls/OrbitControls.js"></script>
+  -->
+  <script type="importmap">
+	{
+		"imports": {
+			"three" : "./scripts/gui/node_modules/three/build/three.module.js",
+      "Stats" :"./scripts/gui/node_modules/three/examples/jsm/libs/stats.module.js",
+      "GUI"   : "./scripts/gui/node_modules/three/examples/jsm/libs/lil-gui.module.min.js",
+      "TrackballControls" : "./scripts/gui/node_modules/three/examples/jsm/controls/TrackballControls.js"
+		}
+	}
+  </script>
+  <script defer src="./scripts/gui/node_modules/three/examples/js/utils/BufferGeometryUtils.js"></script>
+  <script defer src="./scripts/file-saver/dist/FileSaver.min.js"></script>
+  <script defer type="module" src="./scripts/index.js"></script>
+</head>
+<body>
+  <header>
+    <div class="title">
+      <a href="/threetest/"> 
+        <h1>three test</h1>
+      </a>
+    </div>
+    <ul>
+      <li id="importModel">
+        <a>import</a>
+        <input id="importModelFile" type="file" name="files" style="display:none;">
+      </li>
+      <li id="clear">
+        <a>clear</a>
+      </li> 
+    </ul>
+  </header>
+  <aside>
+    <div id="gui"></div>
+  </aside>
+  <main>
+    <div class="draw" id="draw">
+      <div class="cube">
+  	    <div class="front">front</div>
+  	    <div class="back">back</div>
+  	    <div class="right">right</div>
+  	    <div class="left">left</div>
+  	    <div class="top">top</div>
+  	    <div class="bottom">bottom</div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <small>three test verion 1.0.0</small>
+  </footer>
+</body>
+</html>
