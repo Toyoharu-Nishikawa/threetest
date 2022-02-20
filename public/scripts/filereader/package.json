@@ -1,0 +1,37 @@
+{
+  "_from": "filereader@1.2.0",
+  "_id": "filereader@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ySn2OGtM9xiiho+6NrO4SomIuePQvUKNrsJNKKfv8Lo2eZnAkSDMJJZPcQpQRSoiGCVcfAfrP5nObTDXgpQ/YQ==",
+  "_location": "/filereader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "filereader@1.2.0",
+    "name": "filereader",
+    "escapedName": "filereader",
+    "rawSpec": "1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "1.2.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.necosystem.com/verdaccio/filereader/-/filereader-1.2.0.tgz",
+  "_shasum": "3b477f08fa26c3e708a0098f3d3418838fa7a05a",
+  "_spec": "filereader@1.2.0",
+  "_where": "/home/tnishikawa/docker/necosystem/jsnote/public/scripts/jsnote",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "filereader",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.0"
+}
